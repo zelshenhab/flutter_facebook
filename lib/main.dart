@@ -59,6 +59,10 @@ class FacebookApp extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 30,
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
