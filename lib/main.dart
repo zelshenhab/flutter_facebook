@@ -24,22 +24,40 @@ class FacebookApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("facebook", style: TextStyle(color: Colors.white)),
+        title: Text("facebook",
+            style: TextStyle(
+                color: Colors.blueAccent,
+                fontSize: 30,
+                fontWeight: FontWeight.bold)),
         centerTitle: true,
         leading: IconButton(
-          icon: Icon(Icons.menu),
+          icon: Icon(
+            Icons.menu,
+            color: Colors.blueAccent,
+            size: 30,
+          ),
           onPressed: () {},
         ),
         actions: [
           IconButton(
-            icon: Icon(Icons.search),
+            icon: Icon(
+              Icons.search,
+              color: Colors.blueAccent,
+              size: 30,
+            ),
             onPressed: () {},
           ),
           IconButton(
-            icon: Icon(Icons.message),
+            icon: Icon(
+              Icons.message,
+              color: Colors.blueAccent,
+              size: 30,
+            ),
             onPressed: () {},
           ),
         ],
+        backgroundColor: Colors.white,
+        elevation: 30,
       ),
     );
   }
