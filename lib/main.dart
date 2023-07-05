@@ -167,7 +167,7 @@ class FacebookApp extends StatelessWidget {
               height: 300,
               width: double.infinity,
               child: Text(
-                "Facebook",
+                "Twitter",
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
